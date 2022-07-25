@@ -1,0 +1,18 @@
+<div className="btn-group">
+    <button
+      className="btn btn-primary btn-lg dropdown-toggle"
+      type="button"
+      data-mdb-toggle="dropdown"
+      aria-expanded="false"
+    >
+      Large button
+    </button>
+    <ul className="dropdown-menu">
+      <li><a className="dropdown-item" href="#">Action</a></li>
+      <li><a className="dropdown-item" href="#">Another action</a></li>
+      <li><a className="dropdown-item" href="#">Something else here</a></li>
+      <li><hr className="dropdown-divider" /></li>
+      <li><a className="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  

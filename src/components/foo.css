@@ -1,0 +1,25 @@
+#foopos{
+    position: absolute;
+    top:110%;
+    width: 100%;
+    background-color: rgb(71, 68, 68);
+
+}
+#tab-width{
+    
+    position :absolute;
+    left:35%;
+    width:50%;top:30%
+  }
+ .font-h{
+ text-align: center;left:45%;position: absolute;top:15%;
+ } 
+ #card-width{
+    width:80%;
+    position: absolute;
+    top:20%;
+    left:20%;
+ }
+ .hungry{
+    background-color: rgb(178, 178, 253);
+   }
