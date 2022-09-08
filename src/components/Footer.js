@@ -112,7 +112,7 @@ export default function Footer() {
         <section>
         <div class="text-center p-4 border-top" style={{color:"white"}}>
     © 2021 Copyright:
-    <Link class="text-reset fw-bold" to="https://mdbootstrap.com/">SocialWelfareSystem.co</Link>
+    <Link class="text-reset fw-bold" to="https://mdbootstrap.com/">SocialWelfareSystem.com</Link>
   </div>
         </section>    
   </footer>
