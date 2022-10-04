@@ -45,10 +45,10 @@ export default function AddnewEvent(){
 
             <div className="progresses">
               <div className="container mt-3">
-                <h2>Add new Project</h2>
+                <h2>Add new Event</h2>
                 <div className="mb-3 mt-3">
-                  <label htmlFor="Title of Project" className="form-label">Project:</label>
-                  <input type="Title of Project" className="form-control" id="Project" placeholder="Enter title of Project" name="Project"/>
+                  <label htmlFor="Title of Event" className="form-label">Event:</label>
+                  <input type="Title of Event" className="form-control" id="Event" placeholder="Enter title of event" name="Event"/>
                   </div>
                 <div className="mb-3">
                   <label htmlFor="Description" className="form-label">Description:</label>
@@ -65,7 +65,7 @@ export default function AddnewEvent(){
                     </label>
                 </div>
                 <div className="d-grid">
-                  <button type="button" className="btn btn-primary btn-block">Add Project</button>
+                  <button type="button" className="btn btn-primary btn-block">Add Event</button>
          
               </div>
               </div>

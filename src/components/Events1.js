@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar';
-
-function Eventss() {
+import Navbar from './Navbar'
+function Events1() {
   return (
     <div>
-<Navbar/>
-<button type="button" className="btn btn-primary" style={{position:"absolute",top:"-10%",left:"90%"}}>
+         <div className="tinybootstrap">
+      <Navbar />
+      <button type="button" className="btn btn-primary" style={{position:"absolute",top:"-10%",left:"90%"}}>
                     Create
                   </button>
      
@@ -261,291 +261,185 @@ function Eventss() {
           </div>
         </div>
       </div>
-      <div className="mb-4 " style={{width: "48.5%",position:"absolute",top:"110%",left:"25%"}}>
-      <table class="table align-middle mb-0 bg-white"
-                   >
-  <thead class="bg-light">
-  <tr>
-      <th style={{color:"black"}}>Case Id</th>
-      <th style={{color:"black"}}>CaseTitle</th>
-      <th style={{color:"black"}}>Approval</th>
+      <div className="mb-4 " style={{width: "48.5%",position:"absolute",top:"120%",left:"10%"}}>
+              <table class="table align-middle mb-0 bg-white">
+<thead class="bg-light">
+<tr>
+  <th>#</th>
+  <th>Case Identity</th>
+  <th>Category</th>
+  <th>Status</th>
+  <th>View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+   
+      
+      <div className="ms-1">
+        <p className="fw-bold mb-1">1</p>
+       
      
-      <th style={{color:"black"}}>Modilfy</th>
-    
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-        
-      </td>
+    </div>
+  </td>
+  <td>
+    <p className="fw-normal mb-1">Education case</p>
+   
+  </td>
+  <td>
+    <span className="badge badge-success rounded-pill d-inline">Active</span>
+  </td>
+  <td>Senior</td>
+  <td>
+    <button type="button" className="btn btn-link btn-sm btn-rounded">
+      Accept
+    </button>
+    <button type="button" className="btn btn-link btn-sm btn-rounded">
+      Deny
+    </button>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div className="d-flex align-items-center">
+      <img
+          src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+          alt=""
+          style={{width: "45px", height: "45px"}}
+          className="rounded-circle"
+          />
+      <div className="ms-3">
+        <p className="fw-bold mb-1">John Doe</p>
+        <p className="text-muted mb-0">john.doe@gmail.com</p>
+      </div>
+    </div>
+  </td>
+  <td>
+    <p className="fw-normal mb-1">Software engineer</p>
+    <p className="text-muted mb-0">IT department</p>
+  </td>
+  <td>
+    <span className="badge badge-success rounded-pill d-inline">Active</span>
+  </td>
+  <td>Senior</td>
+  <td>
+  <button type="button" className="btn btn-link btn-sm btn-rounded">
+  <i class="fas fa-trash-alt"></i>
+    </button>
+    <button type="button" className="btn btn-link btn-sm btn-rounded">
+    <i class="fas fa-edit"></i>
+    </button>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div className="d-flex align-items-center">
+      <img
+          src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+          alt=""
+          style={{width: "45px", height: "45px"}}
+          className="rounded-circle"
+          />
+      <div className="ms-3">
+        <p className="fw-bold mb-1">John Doe</p>
+        <p className="text-muted mb-0">john.doe@gmail.com</p>
+      </div>
+    </div>
+  </td>
+  <td>
+    <p className="fw-normal mb-1">Software engineer</p>
+    <p className="text-muted mb-0">IT department</p>
+  </td>
+  <td>
+    <span className="badge badge-success rounded-pill d-inline">Active</span>
+  </td>
+  <td>Senior</td>
+  <td>
+    <button type="button" className="btn btn-link btn-sm btn-rounded">
+      Accept
+    </button>
+    <button type="button" className="btn btn-link btn-sm btn-rounded">
+      Deny
+    </button>
+  </td>
+</tr>
 
-   
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-       
-      </td>
-     
-   
-      <td>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-       
-      </td>
-      
-   
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-       
-      </td>
-    </tr>
-   
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-       
-      </td>
-      
-   
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-       
-      </td>
-    </tr>
-   
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-        
-      </td>
-   
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-       
-      </td>
-    </tr>
-   
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-       
-      </td>
-      
-   
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-       
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-       
-      </td>
-   
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-       
-      </td>
-    </tr>
-   
-    <tr>
-      <td>
-        <div className="d-flex align-items-center">
-         
-          <div className="ms-3">
-            <p className="fw-bold mb-1">1</p>
-           
-          </div>
-        </div>
-      </td>
-      <td>
-        <p className="fw-normal mb-1">Education Case</p>
-        
-      </td>
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Accept
-        </button>
-      
-      </td>
-     
-   
-      <td>
-      <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-trash"></i>
-        </button>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
-        <i class="fas fa-pen-square"></i>
-        </button>
-       
-      </td>
-    </tr>
-   
-    
-   
-    
-     
-       
-  </tbody>
+<tr>
+  <td>
+    <div className="d-flex align-items-center">
+      <img
+          src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+          className="rounded-circle"
+          alt=""
+          style={{width: "45px", height: "45px"}}
+          />
+      <div className="ms-3">
+        <p className="fw-bold mb-1">Alex Ray</p>
+        <p className="text-muted mb-0">alex.ray@gmail.com</p>
+      </div>
+    </div>
+  </td>
+  <td>
+    <p className="fw-normal mb-1">Consultant</p>
+    <p className="text-muted mb-0">Finance</p>
+  </td>
+  <td>
+    <span className="badge badge-primary rounded-pill d-inline"
+          >Onboarding</span
+      >
+  </td>
+  <td>Junior</td>
+  <td>
+  <button type="button" className="btn btn-link btn-sm btn-rounded">
+      Accept
+    </button>
+    <button type="button" className="btn btn-link btn-sm btn-rounded">
+      Deny
+    </button>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div className="d-flex align-items-center">
+      <img
+          src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+          className="rounded-circle"
+          alt=""
+          style={{width: "45px", height: "45px"}}
+          />
+      <div className="ms-3">
+        <p className="fw-bold mb-1">Kate Hunington</p>
+        <p className="text-muted mb-0">kate.hunington@gmail.com</p>
+      </div>
+    </div>
+  </td>
+  <td>
+    <p className="fw-normal mb-1">Designer</p>
+    <p className="text-muted mb-0">UI/UX</p>
+  </td>
+  <td>
+    <span className="badge badge-warning rounded-pill d-inline">Awaiting</span>
+  </td>
+  <td>Senior</td>
+  <td>
+    <button
+            type="button"
+            className="btn btn-link btn-rounded btn-sm fw-bold"
+            data-mdb-ripple-color="dark"
+            >
+      Edit
+    </button>
+  </td>
+</tr>
+</tbody>
 </table>
-            
+
 
 </div>
+    </div>
     </div>
   )
 }
 
-export default Eventss
+export default Events1

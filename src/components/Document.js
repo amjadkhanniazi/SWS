@@ -12,16 +12,15 @@ function Document() {
       >
         <div className="container py-5 h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
-            <div className="col-lg-8 col-xl-12">
+            <div className="col-lg-8 col-xl-6">
               <div className="card rounded-3">
-                {/* <img
+                <img
                   src="./img/10.jpg"
                   className="w-100"
-                  alt="Sample photo"
-                 
-                /> */}
+                  alt=""
+                />
                 <div className="card-body p-4 p-md-5">
-                  <h3 className="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 " style={{marginLeft:"35%"}}>
+                  <h3 className="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">
                     Case Description
                   </h3>
 
@@ -31,15 +30,14 @@ function Document() {
       <div className="col">
         <div className="form-outline">
           <input type="text" id="form6Example1" className="form-control" 
-         />
-          <label className="form-label" htmlFor="form6Example1"><b>First Name</b></label>
-          <span style={{paddingLeft:"3%"}}>Asma</span>
+          style={{border:"1px solid black"}}/>
+          <label className="form-label" htmlFor="form6Example1">First Name</label>
         </div>
       </div>
       <div className="col">
         <div className="form-outline">
-        <label className="form-label" htmlFor="form6Example1"><b>Last Name</b></label><br></br>
-          <span style={{paddingLeft:"3%"}}>Butt</span>
+          <input type="text" id="form6Example2" className="form-control" style={{border:"1px solid black"}}/>
+          <label className="form-label" htmlFor="form6Example2">Last Name</label>
         </div>
       </div>
       

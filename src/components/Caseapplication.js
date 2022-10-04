@@ -8,17 +8,17 @@ function Caseapplication() {
             <div className="bg-white" id="sidebar-wrapper">
               <div className="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom"><i className />Social Welfare</div>
               <div className="list-group list-group-flush my-3">
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text active"><i className="fas fa-tachometer-alt me-2" />Dashboard</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />New Cases</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Spam Cases</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Approved Cases</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />New volunteers</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Spam Volunteers</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Approved Volunteer</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Volunteer Reference</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Projects</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Categories</a>
-                <a href="#" className="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i className="fas fa-power-off me-2" />Logout</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text active"><i className="fas fa-tachometer-alt me-2" />Dashboard</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />New Cases</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Spam Cases</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Approved Cases</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />New volunteers</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Spam Volunteers</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Approved Volunteer</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Volunteer Reference</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Projects</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i className />Categories</a>
+                <a href="#!" className="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i className="fas fa-power-off me-2" />Logout</a>
               </div>
             </div>
             {/* Application form */}

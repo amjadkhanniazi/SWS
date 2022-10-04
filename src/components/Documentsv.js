@@ -142,7 +142,23 @@ function Documentsv() {
 
               <div className="d-flex justify-content-end pt-3">
 
-              
+                <a href="">
+
+                  {" "}
+
+                  <button
+
+                    type="button"
+
+                    className="btn btn-light btn-lg"
+
+                  >
+
+                    Save
+
+                  </button>
+
+                </a>
 
                 <a href="/ques">
 
@@ -156,7 +172,7 @@ function Documentsv() {
 
                   >
 
-                    Save & Next
+                    Next
 
                   </button>
 

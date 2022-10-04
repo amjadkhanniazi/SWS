@@ -16,7 +16,7 @@ function Casedoc() {
                 <img
                   src="./img/10.jpg"
                   className="w-100"
-                  alt="Sample photo"
+                  alt=""
                 />
                 <div className="card-body p-4 p-md-5">
                   <h3 className="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">

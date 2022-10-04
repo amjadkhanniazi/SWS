@@ -111,7 +111,7 @@ function Applynowcontact() {
         </Link>
       </div>
       <div class="col">
-        <Link to='/apdoc'>
+        <Link to='/Linkpdoc'>
         <button type="button" class="btn btn-primary mb-4" style={{marginLeft:"75%"}}>Next</button>
         </Link> </div>
     </div>

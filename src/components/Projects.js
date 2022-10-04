@@ -1,11 +1,12 @@
-import React from 'react'
-import Navbar from './Navbar';
+import React from "react";
+import "./styles.css";
 
-function Eventss() {
+import Navbar from "./Navbar";
+function Projects() {
   return (
-    <div>
-<Navbar/>
-<button type="button" className="btn btn-primary" style={{position:"absolute",top:"-10%",left:"90%"}}>
+    <div className="tinybootstrap">
+      <Navbar />
+      <button type="button" className="btn btn-primary" style={{position:"absolute",top:"-10%",left:"90%"}}>
                     Create
                   </button>
      
@@ -545,7 +546,7 @@ function Eventss() {
 
 </div>
     </div>
-  )
+  );
 }
 
-export default Eventss
+export default Projects;

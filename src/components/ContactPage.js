@@ -24,7 +24,7 @@ export default function ContactPage() {
                 </div>
             </div>
             <div className="container shadow-4-strong"
-                style={{width: "450px", height: "500px", marginTop: "10%",marginBottom:"10%",  borderRadius: "10px", border: "1px solid grey", width:"60%"}}>
+                style={{width: "450px", height: "500px", marginTop: "10%",marginBottom:"10%",  borderRadius: "10px", border: "1px solid grey"}}>
                 <h2 style={{textAlign: "center", marginTop: "5%"}}>Contact Us</h2>
                 <form style={{marginTop: "10%"}}>
 

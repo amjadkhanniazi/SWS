@@ -22,10 +22,7 @@ export default function Middlepage() {
                 <div className="card-body">
                     <h5 className="card-title">Orphan Case</h5>
                     <p className="card-text">
-                    Become a Sponsor Now and Help a Child Stand Up to Poverty.
-                     1000s of Children are Waiting. It is Safe and Easy to Sponsor
-                     a Child with Compassion. 
-                     a Child with Compassion. Start Making a....
+                    Become a Sponsor Now and Help a Child Stand Up to Poverty. 1000s of Children are Waiting. It is Safe and Easy to Sponsor a Child with Compassion. Start Making a....
                     </p>
                     <a href="/paymethodoption" className="btn btn-primary">Donate</a>
                 </div>
@@ -35,7 +32,7 @@ export default function Middlepage() {
             <div className="col-lg-4 col-md-6 mb-4">
                 <div className="card">
                 <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                    <img  src="./img/15.jpg"  style={{height:"1000%",width:"1000%"}} alt='' className="img-fluid" />
+                    <img  src="./img/15.jpg"  style={{height:"80%",width:"80%"}} alt='' className="img-fluid" />
                     <a href="#!">
                     <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.15)"}}></div>
                     </a>
@@ -43,9 +40,7 @@ export default function Middlepage() {
                 <div className="card-body">
                     <h5 className="card-title">Free Checkup</h5>
                     <p className="card-text">
-                    A free medical check-up is a periodical or routine set of medical 
-                    tests that you can take in designated health centres or hospitals 
-                    based on your ...
+                    A free medical check-up is a periodical or routine set of medical tests that you can take in designated health centres or hospitals based on your health insurance plan
                     </p>
                     <a href="/paymethodoption" className="btn btn-primary">Donate</a>
                 </div>
@@ -63,9 +58,7 @@ export default function Middlepage() {
                 <div className="card-body">
                     <h5 className="card-title">Marriage Grant</h5>
                     <p className="card-text">
-                    Marriage grant of Rs. 50,000 is paid on 
-                    marriage of one child (irrespective of gender) 
-                    of serving, retired or deceased employee.retired or deceased employee.retired or deceased employee.
+                    Marriage grant of Rs. 50,000 is paid on marriage of one child (irrespective of gender) of serving, retired or deceased employee.
                     </p>
                     <a href="/paymethodoption" className="btn btn-primary">Donate</a>
                 </div>

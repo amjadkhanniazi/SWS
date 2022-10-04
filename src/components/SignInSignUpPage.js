@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import {Link} from 'react-router-dom'
 
 export default function SignInSignUpPage() {
   return (
@@ -63,11 +64,11 @@ export default function SignInSignUpPage() {
               <a href="/rest">Forgot password?</a>
             </div>
           </div>
-<a href='/dash1'>
+<Link to='/dash1'>
        
           <button type="button" className="btn btn-primary btn-block mb-4">Sign in</button>
 
-          </a>
+          </Link>
           <div className="text-center">
             <p>Not a member? <a href="#!">Register</a></p>
           </div>
@@ -130,8 +131,9 @@ export default function SignInSignUpPage() {
             </label>
           </div>
 
-       
+       <Link to='/needydashboard'>
           <button type="submit" className="btn btn-primary btn-block mb-3">Sign Up</button>
+          </Link>
         </form>
       </div>
     </div>

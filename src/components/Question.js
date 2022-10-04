@@ -15,7 +15,7 @@ function Question() {
                     <img
                       src="./img/10.jpg"
                       style={{ height: "84%", width: "100%" }}
-                      alt="Sample photo"
+                      alt="Sample"
                       className="img-fluid"
                     />
                   </div>
@@ -103,9 +103,11 @@ function Question() {
                       </div>
                     </div>
                     <div className="d-flex justify-content-end pt-3 ">
-                 
-                 <Link to="/dashboard"> <button style={{position:"absolute",top:"90%",left:"85%"}}  type="button" 
-                 className="btn btn-primary btn-lg ms-2">Submit </button>
+                 <Link to=""> <button style={{position:"absolute",top:"90%",left:"80%"}}
+                 type="button" className="btn btn-light btn-lg">Save</button>
+                 </Link>
+                 <Link to="/dashboard"> <button style={{position:"absolute",top:"90%",left:"90%"}}  type="button" 
+                 className="btn btn-primary btn-lg ms-2">Next</button>
                  </Link> </div>
                   </div>
                 </div>

@@ -27,13 +27,13 @@ export default function Home() {
  
     <div className="carousel-item active">
       <img src="./img/6.jpg" className="d-block w-100"
-        alt="Sunset Over the City" />
+        alt="Sunset Over the City"  height="610px"/>
       <div className="carousel-caption d-none d-md-block">
-        <h1 style={{ marginLeft: "-67%"}}> Support a Cause</h1>
+        <h1 style={{marginTop: "-40%", marginLeft: "-67%"}}> Support a Cause</h1>
         <h1 style={{ marginLeft: "-70%"}}>you care about</h1>
-        <p style={{marginLeft: "-55%", marginTop: "5%"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.
+        <p style={{marginLeft: "-55%", marginTop: "1%"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.
         </p>
-        <div className="py-4 text-center" style={{marginLeft: "-60%", marginTop: "7%"}}>
+        <div className="py-4 text-center" style={{marginLeft: "-60%", marginTop: "2%"}}>
           <a role="button" className="btn btn-primary btn-lg m-2"
             href="/paymethodoption" rel="nofollow" >
             Donate Now
@@ -49,13 +49,13 @@ export default function Home() {
 
     <div className="carousel-item">
       <img src="./img/39.jpg" className="d-block w-100"
-        alt="Canyon at Nigh" />
+        alt="Canyon at Nigh" height="610px"/>
       <div className="carousel-caption d-none d-md-block">
-        <h1 style={{marginTop: "-50%", marginLeft: "-67%"}}> Support a Cause</h1>
+        <h1 style={{marginTop: "-40%", marginLeft: "-67%"}}> Support a Cause</h1>
         <h1 style={{marginLeft: "-70%"}}>you care about</h1>
-        <p style={{marginLeft: "-55%", marginTop: "5%"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.
+        <p style={{marginLeft: "-55%", marginTop: "1%"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.
         </p>
-        <div className="py-4 text-center" style={{marginLeft: "-60%", marginTop: "7%"}}>
+        <div className="py-4 text-center" style={{marginLeft: "-60%", marginTop: "2%"}}>
           <a role="button" className="btn btn-primary btn-lg m-2"
             href="/paymethodoptions" rel="nofollow" >
             Donate Now
@@ -70,13 +70,13 @@ export default function Home() {
 
     <div className="carousel-item">
       <img src="./img/3.jpg" className="d-block w-100"
-        alt="Cliff Above a Stormy Sea" />
+        alt="Cliff Above a Stormy Sea" height="610px" />
       <div className="carousel-caption d-none d-md-block">
-        <h1 style={{marginTop: "-50%", marginLeft: "-67%"}}> Support a Cause</h1>
+        <h1 style={{marginTop: "-40%", marginLeft: "-67%"}}> Support a Cause</h1>
         <h1 style={{marginLeft: "-70%"}}>you care about</h1>
-        <p style={{marginTop: "5%", marginLeft: "-55%"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.
+        <p style={{marginTop: "1%", marginLeft: "-55%"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.
         </p>
-        <div className="py-4 text-center" style={{marginTop: "7%", marginLeft: "-60%"}}>
+        <div className="py-4 text-center" style={{marginTop: "2%", marginLeft: "-60%"}}>
           <a role="button" className="btn btn-primary btn-lg m-2"
             href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" >
             Donate Now
@@ -121,7 +121,7 @@ export default function Home() {
           </div>
           <div className="card-body">
             <h5 className="card-title">Rashan Packs</h5>
-            <p className="card-text" style={{textAlign:"justify-content"}}>
+            <p className="card-text">
             There are 842 million undernourished people in the world today. That means one in eight people do not get enough food to be healthy and lead an active life.
 
 Hunger and malnutrition are in fact the number one risk to health worldwide — greater than AIDS, malaria and tuberculosis combined.
@@ -141,7 +141,7 @@ Hunger and malnutrition are in fact the number one risk to health worldwide — 
           </div>
           <div className="card-body">
             <h5 className="card-title">Patient</h5>
-            <p className="card-text"  style={{textAlign:"justify-content"}}>
+            <p className="card-text">
             The donation will be utilized by Patient Support Group (PSG) of CAM to provide cataract surgeries for poor patients. If a patient needs a cataract surgery and he is unable to pay the costs, PSG conducts a background check of the patient and analyze his/her socio-economic condition.
              
              .
@@ -161,7 +161,7 @@ Hunger and malnutrition are in fact the number one risk to health worldwide — 
           </div>
           <div className="card-body">
             <h5 className="card-title">Marriage Grant</h5>
-            <p className="card-text"  style={{textAlign:"justify-content"}}>
+            <p className="card-text">
             Marriage grant of Rs. 50,000 is paid on marriage of one child (irrespective of gender) of serving, retired or deceased employee. ( Current rate & conditions of admissiblity are applicable on marriage w.e.f., 21.04.2011)
             A worker / miner can get a marriage 
             </p>
@@ -205,17 +205,17 @@ Hunger and malnutrition are in fact the number one risk to health worldwide — 
           style={{height: "200px", backgroundColor: "#0C56D0", position: "relative", borderRadius: "10px"}}>
 
           <div style= {{height: "200px", width: "330px", position: "absolute", marginLeft: "2%", textAlign: "left" }} >
-            <img src="./img/4.png" alt='' style= {{ marginTop: "18%", float: "left" }} />
+            <img src="./img/4.png" alt='' style= {{ marginTop: "18%", float: "left" , height:"70px", width:"70px"}} />
             <h3 style={{ color: "white",  marginTop: "23%", marginLeft: "30%" }}>35+ Cases</h3>
           </div>
 
           <div style= {{height: "200px", width: "330px", position: "absolute", marginLeft: "35%", textAlign: "left" }}>
-            <img src="./img/2.png" alt='' style= {{ marginTop: "18%", float: "left" }}  />
+            <img src="./img/2.png" alt='' style= {{ marginTop: "18%", float: "left" , height:"70px", width:"70px"}}  />
             <h3 style={{ color: "white",  marginTop: "21%", marginLeft: "30%" }}>12M People Joined</h3>
           </div>
 
           <div style= {{height: "200px", width: "330px", position: "absolute", marginLeft: "68%", textAlign: "left" }}>
-            <img src="./img/3.png"alt='' style= {{ marginTop: "18%", float: "left" }}  />
+            <img src="./img/3.png"alt='' style= {{ marginTop: "18%", float: "left" , height:"70px", width:"70px"}} />
             <h3 style={{ color: "white",  marginTop: "20%", marginLeft: "30%" }}>12000 Peoples <br />get help from us</h3>
 
 
@@ -303,7 +303,7 @@ Hunger and malnutrition are in fact the number one risk to health worldwide — 
   {/* Home News letter section */}
   
   
-<section  style={{margin: "10%" ,margin:"10% 0"}}>
+<section  style={{margin:"10% 0"}}>
 
 <div className="shadow-4-strong" style={{height: "300px", width:"100%", backgroundColor: "#0C56D0", borderRadius: "40px"}}>
   

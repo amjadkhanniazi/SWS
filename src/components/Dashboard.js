@@ -114,7 +114,7 @@ function Dashboard() {
               <form className="my-4" style={{margin:'3% 0 0 2%'}}>   
             
                 
-                <div className="row mb-4 my-3">
+                <div className="row mb-4">
                   <div className="col">
                 <div className="form-outline">
                   <input type="text" style={{border:"1px solid black"}} id="form6Example3" className="form-control" />
@@ -129,7 +129,7 @@ function Dashboard() {
               </div>
               </div>
               
-              <div className="row mb-4 my-3">
+              <div className="row mb-4">
                   <div className="col">
                 <div className="form-outline">
                   <input type="text" style={{border:"1px solid black"}} id="form6Example3" className="form-control" />
@@ -145,7 +145,7 @@ function Dashboard() {
               </div>
                
              
-                <div className="row mb-4 my-3">
+                <div className="row mb-4">
                   <div className="col">
                 <div className="form-outline">
                   <input style={{border:"1px solid black"}} type="email" id="form6Example5" className="form-control" />
@@ -162,18 +162,18 @@ function Dashboard() {
               
                
                 
-                <div className="form-outline mb-4 my-3">
+                <div className="form-outline mb-4">
                   <input style={{border:"1px solid black"}} type="number" id="form6Example6" className="form-control" />
                   <label className="form-label" htmlFor="form6Example6">Current Address</label>
                 </div>
-                <div className="form-outline mb-4 my-3">
+                <div className="form-outline mb-4">
                   <input style={{border:"1px solid black"}} type="number" id="form6Example6" className="form-control" />
                   <label className="form-label" htmlFor="form6Example6">Permanent Address</label>
                 </div>
               
               
                 
-                <div className="row mb-4 my-3">
+                <div className="row mb-4">
                   <div className="col">
                 <div className="form-outline mb-4">
                   <input style={{border:"1px solid black"}} type="text" id="form6Example6" className="form-control" />
@@ -189,8 +189,8 @@ function Dashboard() {
             </div>
               
               
-                <div className="text-center mb-3 " style={{marginLeft:"85%"}}>
-                <button type="submit" className="btn btn-primary mb-4 ">Update</button>
+                <div className="text-center mb-3" style={{marginTop: "24%"}}>
+                <button type="submit" className="btn btn-primary mb-4 ">Save</button>
               </div>
               </form>
   
@@ -216,11 +216,11 @@ function Dashboard() {
                    >
   <thead class="bg-light">
   <tr>
-      <th style={{color:"black", textAlign:"right"}}>Case Id</th>
+      <th style={{color:"black"}}>Case Id</th>
       <th style={{color:"black"}}>CaseTitle</th>
-      <th style={{color:"black",textAlign:"center"}}>Approval</th>
-      <th style={{color:"black",textAlign:"center"}}>Denied</th>
-      <th style={{color:"black",textAlign:"center"}}>View</th>
+      <th style={{color:"black"}}>Approval</th>
+      <th style={{color:"black"}}>Denied</th>
+      <th style={{color:"black"}}>View</th>
     
     </tr>
     </thead>
@@ -247,7 +247,7 @@ function Dashboard() {
       </td>
       <td>
       <button type="button" className="btn btn-link btn-sm btn-rounded">
-          Deny
+          Denny
         </button>
         
       </td>
@@ -541,7 +541,7 @@ function Dashboard() {
       <th style={{color:"black"}}>CaseTitle</th>
       <th style={{color:"black"}}>Case Status</th>
   
-      <th style={{color:"black",textAlign:"center"}}>View</th>
+      <th style={{color:"black"}}>View</th>
     
     </tr>
     </thead>
